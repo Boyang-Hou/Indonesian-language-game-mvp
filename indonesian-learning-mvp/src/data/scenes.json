@@ -1,0 +1,566 @@
+[
+  {
+    "scene_id": "jakarta_nightmarket_01",
+    "chapter": 1,
+    "location_label": "🌙 华人区夜市 · 夜晚",
+    "background_style": "linear-gradient(135deg, #1a1a3e 0%, #e8a54b 100%)",
+    "dialogues": [
+      {
+        "character": "Lina（印尼华人朋友）",
+        "indo": "Selamat malam! Akhirnya kamu datang ke Jakarta!",
+        "zh": "晚上好！你终于来雅加达了！",
+        "vocab_hints": [
+          {
+            "word": "selamat malam",
+            "meaning": "晚上好",
+            "root": "selamat=平安/祝福 + malam=夜晚",
+            "culture_hook": "印尼人的问候语都带 selamat，本意是祝你平安，见面必说"
+          }
+        ]
+      },
+      {
+        "character": "你",
+        "indo": "Halo Lina! Wah, ramai sekali di sini. Sudah makan belum?",
+        "zh": "你好 Lina！哇，这里好热闹。吃饭了吗？",
+        "vocab_hints": [
+          {
+            "word": "makan",
+            "meaning": "吃饭 / 吃",
+            "root": "基础动词，无词根拆解",
+            "culture_hook": "印尼人见面最常问的一句话就是 sudah makan？（吃了吗？），比问天气更亲切"
+          }
+        ]
+      },
+      {
+        "character": "Lina（印尼华人朋友）",
+        "indo": "Belum! Yuk, kita coba pisang goreng dulu. Enak banget di sini!",
+        "zh": "还没！来，我们先试试炸香蕉。这里的超好吃！",
+        "vocab_hints": [
+          {
+            "word": "goreng",
+            "meaning": "油炸 / 炒",
+            "root": "基础烹饪词，无词根拆解",
+            "culture_hook": "goreng 是印尼饮食的灵魂词，nasi goreng（炒饭）、mie goreng（炒面）、pisang goreng（炸香蕉）全靠它"
+          },
+          {
+            "word": "enak",
+            "meaning": "好吃 / 美味",
+            "root": "基础形容词，无词根拆解",
+            "culture_hook": "印尼人评价食物必用 enak，说 enak banget 就是超级好吃的意思"
+          }
+        ]
+      },
+      {
+        "character": "摊主 Pak Budi",
+        "indo": "Selamat malam! Mau beli apa? Pisang goreng saya paling enak di sini!",
+        "zh": "晚上好！想买什么？我的炸香蕉是这里最好吃的！",
+        "vocab_hints": [
+          {
+            "word": "mau",
+            "meaning": "想要 / 要",
+            "root": "基础意愿词，无词根拆解",
+            "culture_hook": "mau 是印尼语最高频的意愿表达词，点餐、购物、日常对话全靠它"
+          }
+        ]
+      },
+      {
+        "character": "你",
+        "indo": "Berapa harga pisang goreng satu porsi?",
+        "zh": "一份炸香蕉多少钱？",
+        "vocab_hints": [
+          {
+            "word": "berapa",
+            "meaning": "多少",
+            "root": "基础疑问词",
+            "culture_hook": "berapa 是问价格、数量的万能词，在市场和餐厅你会用到无数次"
+          }
+        ]
+      },
+      {
+        "character": "摊主 Pak Budi",
+        "indo": "Lima ribu rupiah saja. Murah, kan? Ini juga ada goreng pisang coklat, enak sekali!",
+        "zh": "只要五千盾。便宜吧？这里还有巧克力炸香蕉，非常好吃！",
+        "vocab_hints": [
+          {
+            "word": "murah",
+            "meaning": "便宜",
+            "root": "基础形容词，与 mahal（贵）相对",
+            "culture_hook": "印尼夜市物价亲民，murah 是你会经常听到的好消息"
+          }
+        ]
+      },
+      {
+        "character": "Lina（印尼华人朋友）",
+        "indo": "Ayo kita makan di sini! Besok kita ke pasar pagi, mau ikut?",
+        "zh": "我们就在这里吃吧！明天我们去早市，要一起去吗？",
+        "vocab_hints": []
+      }
+    ],
+    "choices": [
+      {
+        "label": "Mau ikut! Jam berapa?（要去！几点？）",
+        "next": "jakarta_market_02",
+        "response": "Bagus! Kita berangkat jam tujuh pagi ya. Jangan telat!（太好了！我们早上七点出发，别迟到！）"
+      },
+      {
+        "label": "Boleh, tapi saya mau tidur dulu.（可以，但我想先睡一觉。）",
+        "next": "jakarta_market_02",
+        "response": "Haha, oke! Istirahat dulu, besok kita ke pasar pagi!（哈哈，好吧！先休息，明天我们去早市！）"
+      }
+    ]
+  },
+  {
+    "scene_id": "jakarta_market_02",
+    "chapter": 1,
+    "location_label": "🛒 传统菜市场 · 清晨",
+    "background_style": "linear-gradient(135deg, #F5E6CA 0%, #A8D5A2 100%)",
+    "dialogues": [
+      {
+        "character": "Lina（印尼华人朋友）",
+        "indo": "Selamat pagi! Ini pasar tradisional paling ramai di Jakarta. Mau beli sayur apa?",
+        "zh": "早上好！这是雅加达最热闹的传统市场。想买什么蔬菜？",
+        "vocab_hints": [
+          {
+            "word": "selamat pagi",
+            "meaning": "早上好",
+            "root": "selamat=平安/祝福 + pagi=早晨",
+            "culture_hook": "印尼人一天的问候从 selamat pagi 开始，早市里到处都能听到"
+          }
+        ]
+      },
+      {
+        "character": "你",
+        "indo": "Saya mau beli kangkung dan tomat. Berapa harga kangkung satu ikat?",
+        "zh": "我想买空心菜和番茄。一把空心菜多少钱？",
+        "vocab_hints": [
+          {
+            "word": "mau",
+            "meaning": "想要 / 要",
+            "root": "基础意愿词",
+            "culture_hook": "mau 在购物场景里是最自然的表达，比 ingin 更口语化"
+          },
+          {
+            "word": "berapa",
+            "meaning": "多少",
+            "root": "基础疑问词",
+            "culture_hook": "砍价第一步就是问 berapa，这个词你在市场里会说到嘴软"
+          }
+        ]
+      },
+      {
+        "character": "摊贩 Ibu Sari",
+        "indo": "Kangkung satu ikat lima ribu. Tomat satu kilo delapan ribu. Mau berapa?",
+        "zh": "空心菜一把五千。番茄一公斤八千。要多少？",
+        "vocab_hints": [
+          {
+            "word": "mau",
+            "meaning": "想要 / 要",
+            "root": "基础意愿词",
+            "culture_hook": "摊贩问 mau berapa 就是问你要多少，这是市场里最常见的对话"
+          }
+        ]
+      },
+      {
+        "character": "你",
+        "indo": "Wah, mahal sekali! Berapa kalau beli dua ikat kangkung?",
+        "zh": "哇，好贵！买两把空心菜多少钱？",
+        "vocab_hints": [
+          {
+            "word": "mahal",
+            "meaning": "贵 / 昂贵",
+            "root": "基础形容词，与 murah（便宜）相对",
+            "culture_hook": "在印尼市场说 mahal sekali 是砍价的开场白，摊贩不会生气，这是正常的交流方式"
+          }
+        ]
+      },
+      {
+        "character": "摊贩 Ibu Sari",
+        "indo": "Dua ikat delapan ribu saja. Sudah murah ini! Tomat juga mau?",
+        "zh": "两把八千就好。已经很便宜了！番茄也要吗？",
+        "vocab_hints": [
+          {
+            "word": "murah",
+            "meaning": "便宜",
+            "root": "基础形容词",
+            "culture_hook": "摊贩说 sudah murah 表示价格已经到底了，但你还可以再试试"
+          }
+        ]
+      },
+      {
+        "character": "你",
+        "indo": "Oke, saya ambil dua ikat kangkung dan setengah kilo tomat. Berapa totalnya?",
+        "zh": "好，我要两把空心菜和半公斤番茄。总共多少钱？",
+        "vocab_hints": [
+          {
+            "word": "berapa",
+            "meaning": "多少",
+            "root": "基础疑问词",
+            "culture_hook": "问总价用 berapa totalnya，这句话在任何购物场景都适用"
+          }
+        ]
+      },
+      {
+        "character": "摊贩 Ibu Sari",
+        "indo": "Dua belas ribu rupiah. Terima kasih, ya! Besok ke sini lagi!",
+        "zh": "一万两千盾。谢谢！明天再来！",
+        "vocab_hints": []
+      }
+    ],
+    "choices": [
+      {
+        "label": "Terlalu mahal! Bisa kurang?（太贵了！能便宜点吗？）",
+        "next": "jakarta_warung_03",
+        "type": "challenge",
+        "correct": true,
+        "response": "Wah, bagus! Kamu sudah bisa tawar harga! Nah, begitu caranya!（哇，厉害！你已经会砍价了！就是这样！）"
+      },
+      {
+        "label": "Saya beli mahal ini.（我买这个贵的。）",
+        "next": "jakarta_warung_03",
+        "type": "challenge",
+        "correct": false,
+        "response": "Haha, maksudnya 'Terlalu mahal, bisa kurang?' kan? Tidak apa-apa, belajar pelan-pelan!（哈哈，你是想说'太贵了，能便宜点吗？'对吧？没关系，慢慢学！）"
+      }
+    ]
+  },
+  {
+    "scene_id": "jakarta_warung_03",
+    "chapter": 1,
+    "location_label": "🍜 华人餐馆 · 午后",
+    "background_style": "linear-gradient(135deg, #3E2723 0%, #8D6E63 100%)",
+    "dialogues": [
+      {
+        "character": "Lina（印尼华人朋友）",
+        "indo": "Ini warung favorit saya! Di sini ada nasi goreng, mie goreng, semua enak!",
+        "zh": "这是我最喜欢的小餐馆！这里有炒饭、炒面，全都好吃！",
+        "vocab_hints": [
+          {
+            "word": "goreng",
+            "meaning": "油炸 / 炒",
+            "root": "基础烹饪词",
+            "culture_hook": "nasi goreng 是印尼国民美食，几乎每家餐馆都有，是外国人来印尼必吃的第一道菜"
+          },
+          {
+            "word": "enak",
+            "meaning": "好吃 / 美味",
+            "root": "基础形容词",
+            "culture_hook": "印尼人对食物的最高评价就是 enak，说出这个词摊主会非常开心"
+          }
+        ]
+      },
+      {
+        "character": "服务员 Mas Andi",
+        "indo": "Selamat datang! Mau pesan apa? Ada nasi goreng spesial, mie goreng, dan ayam goreng.",
+        "zh": "欢迎！想点什么？有特色炒饭、炒面和炸鸡。",
+        "vocab_hints": [
+          {
+            "word": "mau",
+            "meaning": "想要 / 要",
+            "root": "基础意愿词",
+            "culture_hook": "点餐时 mau pesan apa 是服务员的标准问法，你只需要回答 saya mau..."
+          }
+        ]
+      },
+      {
+        "character": "你",
+        "indo": "Saya mau pesan nasi goreng spesial satu. Berapa harganya?",
+        "zh": "我要点一份特色炒饭。多少钱？",
+        "vocab_hints": [
+          {
+            "word": "mau",
+            "meaning": "想要 / 要",
+            "root": "基础意愿词",
+            "culture_hook": "saya mau pesan 是点餐的标准句式，记住这句话走遍印尼餐厅都不怕"
+          },
+          {
+            "word": "berapa",
+            "meaning": "多少",
+            "root": "基础疑问词",
+            "culture_hook": "在餐厅问价格也用 berapa，印尼很多小餐馆菜单上不标价格"
+          }
+        ]
+      },
+      {
+        "character": "服务员 Mas Andi",
+        "indo": "Nasi goreng spesial dua puluh ribu. Mau minum apa? Ada es teh, jus jeruk.",
+        "zh": "特色炒饭两万盾。想喝什么？有冰茶、橙汁。",
+        "vocab_hints": [
+          {
+            "word": "mau",
+            "meaning": "想要 / 要",
+            "root": "基础意愿词",
+            "culture_hook": "服务员会接着问 mau minum apa，饮料和食物分开点是印尼餐厅的习惯"
+          }
+        ]
+      },
+      {
+        "character": "你",
+        "indo": "Es teh satu, terima kasih. Apakah nasi goreng di sini enak?",
+        "zh": "一杯冰茶，谢谢。这里的炒饭好吃吗？",
+        "vocab_hints": [
+          {
+            "word": "enak",
+            "meaning": "好吃 / 美味",
+            "root": "基础形容词",
+            "culture_hook": "问 enak tidak 是对厨师最大的尊重，他们会骄傲地告诉你当然好吃"
+          }
+        ]
+      },
+      {
+        "character": "服务员 Mas Andi",
+        "indo": "Tentu saja enak! Nasi goreng kami pakai bumbu rahasia. Sudah terkenal di sini!",
+        "zh": "当然好吃！我们的炒饭用的是秘制香料。在这里很有名！",
+        "vocab_hints": [
+          {
+            "word": "enak",
+            "meaning": "好吃 / 美味",
+            "root": "基础形容词",
+            "culture_hook": "印尼炒饭的秘密在于 bumbu（香料），每家餐馆的配方都不同，这是印尼饮食文化的精髓"
+          }
+        ]
+      },
+      {
+        "character": "Lina（印尼华人朋友）",
+        "indo": "Coba deh! Nasi goreng di sini memang enak banget. Saya makan di sini setiap minggu!",
+        "zh": "试试看！这里的炒饭真的超好吃。我每周都来这里吃！",
+        "vocab_hints": [
+          {
+            "word": "makan",
+            "meaning": "吃饭 / 吃",
+            "root": "基础动词",
+            "culture_hook": "makan 不只是吃东西，在印尼文化里 makan bersama（一起吃饭）是增进感情的重要方式"
+          }
+        ]
+      },
+      {
+        "character": "你",
+        "indo": "Wah, nasi goreng ini enak sekali! Goreng pisangnya juga mau saya coba.",
+        "zh": "哇，这炒饭真的太好吃了！炸香蕉我也想试试。",
+        "vocab_hints": [
+          {
+            "word": "goreng",
+            "meaning": "油炸 / 炒",
+            "root": "基础烹饪词",
+            "culture_hook": "goreng 出现在菜名前面就是炸或炒的意思，印尼菜里 goreng 系列是最受欢迎的烹饪方式"
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "label": "Mau pesan goreng pisang juga!（我也要点炸香蕉！）",
+        "next": "jakarta_cny_04",
+        "type": "challenge",
+        "correct": true,
+        "response": "Wah, bagus sekali! 'Mau pesan' — kamu sudah hafal cara pesan makanan!（哇，说得很好！'Mau pesan'——你已经记住怎么点餐了！）"
+      },
+      {
+        "label": "Saya goreng pisang mau.（我炸香蕉要。）",
+        "next": "jakarta_cny_04",
+        "type": "challenge",
+        "correct": false,
+        "response": "Hehe, harusnya 'Saya mau pesan goreng pisang' ya! Tidak apa-apa, sudah hampir benar!（嘿嘿，应该说'Saya mau pesan goreng pisang'！没关系，已经很接近了！）"
+      }
+    ]
+  },
+  {
+    "scene_id": "jakarta_cny_04",
+    "chapter": 1,
+    "location_label": "🧧 华人社区活动中心 · 春节",
+    "background_style": "linear-gradient(135deg, #B71C1C 0%, #FFD54F 100%)",
+    "dialogues": [
+      {
+        "character": "Lina（印尼华人朋友）",
+        "indo": "Selamat datang di perayaan Imlek! Ini keluarga saya. Makan dulu, ya!",
+        "zh": "欢迎来参加春节庆典！这是我的家人。先吃饭！",
+        "vocab_hints": [
+          {
+            "word": "makan",
+            "meaning": "吃饭 / 吃",
+            "root": "基础动词",
+            "culture_hook": "印尼华人的春节庆典少不了大吃一顿，makan bersama 是节日的核心活动"
+          }
+        ]
+      },
+      {
+        "character": "Nenek Lina（Lina 的奶奶）",
+        "indo": "Gong Xi Fa Cai! Ini angpao untuk kamu. Semoga sehat dan bahagia!",
+        "zh": "恭喜发财！这是给你的红包。祝你健康快乐！",
+        "vocab_hints": [
+          {
+            "word": "angpao",
+            "meaning": "红包",
+            "root": "来自闽南语 ang pau，印尼华人春节传统",
+            "culture_hook": "angpao 这个词已经完全融入印尼语，连非华裔印尼人也知道这个词的意思"
+          }
+        ]
+      },
+      {
+        "character": "你",
+        "indo": "Terima kasih banyak! Gong Xi Fa Cai! Makanan di sini enak sekali, ada goreng apa saja?",
+        "zh": "非常感谢！恭喜发财！这里的食物太好吃了，有什么炸的？",
+        "vocab_hints": [
+          {
+            "word": "enak",
+            "meaning": "好吃 / 美味",
+            "root": "基础形容词",
+            "culture_hook": "春节宴席上说 enak 是对主人最好的赞美，印尼华人非常重视待客之道"
+          },
+          {
+            "word": "goreng",
+            "meaning": "油炸 / 炒",
+            "root": "基础烹饪词",
+            "culture_hook": "春节宴席上也少不了 goreng 系列，炸年糕（kue goreng）是华人春节的传统食物"
+          }
+        ]
+      },
+      {
+        "character": "Nenek Lina（Lina 的奶奶）",
+        "indo": "Ada banyak! Ayam goreng, tahu goreng, dan kue goreng. Mau coba yang mana?",
+        "zh": "有很多！炸鸡、炸豆腐和炸年糕。想试哪个？",
+        "vocab_hints": [
+          {
+            "word": "mau",
+            "meaning": "想要 / 要",
+            "root": "基础意愿词",
+            "culture_hook": "长辈问 mau coba yang mana 是热情款待的表现，在印尼文化里拒绝食物是不礼貌的"
+          }
+        ]
+      },
+      {
+        "character": "Lina（印尼华人朋友）",
+        "indo": "Kamu sudah bisa bahasa Indonesia! Satu, dua, tiga, empat, lima — coba hitung!",
+        "zh": "你已经会印尼语了！一、二、三、四、五——试着数数！",
+        "vocab_hints": []
+      },
+      {
+        "character": "你",
+        "indo": "Satu, dua, tiga, empat, lima, enam, tujuh, delapan, sembilan, sepuluh!",
+        "zh": "一、二、三、四、五、六、七、八、九、十！",
+        "vocab_hints": []
+      },
+      {
+        "character": "Nenek Lina（Lina 的奶奶）",
+        "indo": "Bagus sekali! Kamu pintar! Ayo makan lagi, masih banyak makanan enak di sini!",
+        "zh": "太棒了！你真聪明！来多吃点，这里还有很多好吃的！",
+        "vocab_hints": [
+          {
+            "word": "makan",
+            "meaning": "吃饭 / 吃",
+            "root": "基础动词",
+            "culture_hook": "印尼长辈催你多吃是最高规格的关爱，ayo makan lagi 是你在印尼家庭里最常听到的话"
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "label": "Terima kasih! Makanan di sini enak banget!（谢谢！这里的食物超好吃！）",
+        "next": "jakarta_chinatown_05",
+        "response": "Sama-sama! Senang kamu suka! Besok kita jalan-jalan lagi ya!（不客气！很高兴你喜欢！明天我们再出去玩！）"
+      },
+      {
+        "label": "Saya sudah kenyang, tapi mau coba kue goreng!（我已经饱了，但想试试炸年糕！）",
+        "next": "jakarta_chinatown_05",
+        "response": "Haha, perut orang Indonesia selalu ada tempat untuk kue goreng!（哈哈，印尼人的肚子永远有地方装炸年糕！）"
+      }
+    ]
+  },
+  {
+    "scene_id": "jakarta_chinatown_05",
+    "chapter": 1,
+    "location_label": "✨ 华人区街头 · 夜晚",
+    "background_style": "linear-gradient(135deg, #1a1a3e 0%, #4a148c 100%)",
+    "dialogues": [
+      {
+        "character": "Lina（印尼华人朋友）",
+        "indo": "Kamu sudah belajar banyak hari ini! Selamat malam, Jakarta!",
+        "zh": "你今天学到了很多！晚安，雅加达！",
+        "vocab_hints": [
+          {
+            "word": "selamat malam",
+            "meaning": "晚上好 / 晚安",
+            "root": "selamat=平安/祝福 + malam=夜晚",
+            "culture_hook": "一天从 selamat pagi 开始，以 selamat malam 结束，印尼人的问候贯穿全天"
+          }
+        ]
+      },
+      {
+        "character": "你",
+        "indo": "Iya! Saya sudah bisa bilang selamat pagi, makan nasi goreng yang enak, dan tawar harga di pasar!",
+        "zh": "是的！我已经会说早上好，吃了好吃的炒饭，还在市场砍价了！",
+        "vocab_hints": [
+          {
+            "word": "makan",
+            "meaning": "吃饭 / 吃",
+            "root": "基础动词",
+            "culture_hook": "回顾今天，makan 贯穿了整个旅程——从夜市到餐馆到春节宴席"
+          },
+          {
+            "word": "goreng",
+            "meaning": "油炸 / 炒",
+            "root": "基础烹饪词",
+            "culture_hook": "goreng 是今天出现最多的词，因为它真的是印尼饮食的核心"
+          },
+          {
+            "word": "enak",
+            "meaning": "好吃 / 美味",
+            "root": "基础形容词",
+            "culture_hook": "enak 是今天最有用的词，说出它你就能和任何印尼人建立连接"
+          }
+        ]
+      },
+      {
+        "character": "Lina（印尼华人朋友）",
+        "indo": "Dan kamu tahu berapa harga kangkung! Hebat!",
+        "zh": "而且你知道空心菜多少钱了！厉害！",
+        "vocab_hints": [
+          {
+            "word": "berapa",
+            "meaning": "多少",
+            "root": "基础疑问词",
+            "culture_hook": "berapa 是今天在市场和餐厅用得最多的词，掌握它你就能在印尼独立购物"
+          }
+        ]
+      },
+      {
+        "character": "你",
+        "indo": "Haha, iya! Saya mau belajar lebih banyak lagi. Besok kita ke mana?",
+        "zh": "哈哈，是的！我想学更多。明天我们去哪里？",
+        "vocab_hints": [
+          {
+            "word": "mau",
+            "meaning": "想要 / 要",
+            "root": "基础意愿词",
+            "culture_hook": "mau 是今天出现最多的意愿词，从买菜到点餐到表达想法，它无处不在"
+          }
+        ]
+      },
+      {
+        "character": "Lina（印尼华人朋友）",
+        "indo": "Besok kita ke Bandung! Di sana ada tahu goreng paling enak di Indonesia. Mau ikut?",
+        "zh": "明天我们去万隆！那里有印尼最好吃的炸豆腐。要一起去吗？",
+        "vocab_hints": [
+          {
+            "word": "goreng",
+            "meaning": "油炸 / 炒",
+            "root": "基础烹饪词",
+            "culture_hook": "万隆的 tahu goreng（炸豆腐）是当地名产，goreng 的旅程还没有结束"
+          },
+          {
+            "word": "enak",
+            "meaning": "好吃 / 美味",
+            "root": "基础形容词",
+            "culture_hook": "印尼各地都有自己最 enak 的食物，这就是为什么印尼值得一直探索"
+          }
+        ]
+      }
+    ],
+    "choices": [],
+    "ending": {
+      "title": "第一章完成！",
+      "text": "你在雅加达华人区度过了充实的一天。\n从夜市的第一声 Selamat malam，到菜市场的砍价，再到餐馆里自信地说出 Mau pesan nasi goreng——你已经迈出了第一步。\n\n但旅程才刚开始。Lina 提到的万隆，藏着什么故事？",
+      "cta_text": "从头再来"
+    }
+  }
+]
